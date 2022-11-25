@@ -1,0 +1,37 @@
+@use 'variables';
+
+header{
+    height: 50vh;
+    // background-image: url(./);
+}
+
+.mainHeaderFlex{
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: center;
+    // align-items: center;
+}
+
+.navFlex{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.headerNavUl{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+.headerTextFlex{
+    width: 70%;
+    text-align: center;
+}
+
+.headerButton{
+    width: 100px;
+    height: 30px;
+    background-color: variables.$pink;
+}

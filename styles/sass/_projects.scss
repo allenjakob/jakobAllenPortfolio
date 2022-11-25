@@ -2,8 +2,20 @@
 
 .projectSection{
     height: 50vh;
+    background-color: variables.$tan;
+
+}
+
+.mainProjectsFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 }
 
 .individualProjectBox{
-    color: blue;
+    background-color: variables.$white;
+    width: 40%;
+    margin: 10px 10px;
 }

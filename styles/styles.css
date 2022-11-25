@@ -307,3 +307,16 @@ a {
   transition: 0.3s;
   color: inherit;
 }
+
+section {
+  height: 50vh;
+  background-color: #F7E4DC;
+}
+
+.projectSection {
+  height: 50vh;
+}
+
+.individualProjectBox {
+  color: blue;
+}

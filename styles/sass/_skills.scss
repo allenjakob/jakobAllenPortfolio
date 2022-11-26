@@ -2,16 +2,44 @@
 
 #skills{
     background-color: variables.$darkGreen;
+    h2{
+        color: variables.$white;
+        
+    }
 }
 
 i{
     color: variables.$white;
 }
 
+.skillsFlexParent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .skillBoxContainer{
-    
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    margin-top: 20px;
 }
 
 .skillBox{
+    display: flex;
+    flex-direction: column;
     color: variables.$white;
+    align-items: center;
+    width: 60px;
+    p{
+        font-size: 0.7rem;
+    }
+    i{
+        size: 30px;
+    }
 }

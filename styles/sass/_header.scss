@@ -2,20 +2,23 @@
 
 header{
     height: 50vh;
-    // background-image: url(./);
+    background-image: url(../assets/leafyBackground.avif);
 }
 
 .mainHeaderFlex{
     display: flex;
     // flex-wrap: wrap;
     justify-content: center;
-    // align-items: center;
+    align-items:center;
+    height: 300px;
 }
+
 
 .navFlex{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 .headerNavUl{
@@ -23,15 +26,17 @@ header{
     justify-content: space-between;
     width: 70%;
     align-items: center;
+    a{
+        color: variables.$white;
+    }
+
 }
 
 .headerTextFlex{
     width: 70%;
     text-align: center;
-}
-
-.headerButton{
-    width: 100px;
-    height: 30px;
-    background-color: variables.$pink;
+    p{
+        color: variables.$white;
+        padding: 10px 0px;
+    }
 }

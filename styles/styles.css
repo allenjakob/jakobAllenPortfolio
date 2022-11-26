@@ -223,7 +223,7 @@ template {
 
 header {
   height: 50vh;
-  background-image: url(../assets/leafyBackground.avif);
+  background-image: url(../assets/leafyBackground2.avif);
 }
 
 .mainHeaderFlex {
@@ -281,7 +281,7 @@ h1, h2, h3, p {
 }
 
 h1 {
-  color: white;
+  color: lightgray;
   font-size: 3.5rem;
 }
 
@@ -338,10 +338,10 @@ section {
 
 #projects {
   background-color: #F7E4DC;
+  height: 100vh;
 }
 
 .projectSection {
-  height: 50vh;
   background-color: #F7E4DC;
 }
 
@@ -368,10 +368,49 @@ section {
   background-color: #365C46;
 }
 
+i {
+  color: #F8F4F3;
+}
+
+.skillBox {
+  color: #F8F4F3;
+}
+
+#about {
+  height: 50vh;
+}
+
+.aboutMeFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.aboutMeFlex p {
+  width: 70%;
+}
+
+.aboutMeImg {
+  width: 200px;
+  padding: 30px 0px;
+}
+.aboutMeImg img {
+  border-radius: 50%;
+}
+
 #contact {
   background-color: #B6CAA2;
 }
 
 #footer {
   background-color: #365C46;
+  text-align: center;
+  color: #F8F4F3;
 }

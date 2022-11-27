@@ -222,7 +222,7 @@ template {
 }
 
 header {
-  height: 50vh;
+  height: 500px;
   background-image: url(../assets/leafyBackground2.avif);
 }
 
@@ -344,11 +344,11 @@ section {
 
 #projects {
   background-color: #F7E4DC;
-  height: 100vh;
+  height: 800px;
 }
-@media (max-width: 505px) {
+@media (max-width: 728px) {
   #projects {
-    height: 185vh;
+    height: 1430px;
   }
 }
 #projects h2 {
@@ -375,12 +375,12 @@ section {
   width: 40%;
   margin: 10px 10px;
   max-width: 400px;
-  min-width: 200px;
+  min-width: 300px;
   padding: 10px;
 }
 @media (max-width: 505px) {
   .individualProjectBox {
-    width: 60%;
+    width: 80%;
   }
 }
 .individualProjectBox .smallText {
@@ -389,6 +389,7 @@ section {
 
 #skills {
   background-color: #365C46;
+  height: 500px;
 }
 #skills h2 {
   color: #F8F4F3;
@@ -455,11 +456,11 @@ i {
 }
 
 #about {
-  height: 50vh;
+  height: 500px;
 }
-@media (max-width: 627px) {
+@media (max-width: 452px) {
   #about {
-    height: 60vh;
+    height: 550px;
   }
 }
 
@@ -496,9 +497,19 @@ i {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 500px;
 }
 
 .contactFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contactFlexChild {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,8 +521,9 @@ i {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 60%;
 }
-.contactFlexParent p {
+.contactFlexChild p {
   padding: 10px;
 }
 
@@ -521,4 +533,5 @@ i {
   color: #F8F4F3;
   font-size: 0.8rem;
   padding: 5px;
+  height: 30px;
 }

@@ -4,13 +4,20 @@
     background-color: variables.$lightGreen;
     display: flex;
     align-items: center;
+    height: 500px;
 }
 
 .contactFlexParent{
     display: flex;
+    justify-content: center;
+}
+
+.contactFlexChild{
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 60%;
     p{
         padding: 10px;
     }

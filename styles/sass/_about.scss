@@ -1,9 +1,9 @@
 @use 'variables';
 
 #about{
-    height: 50vh;
-    @media (max-width: 627px){
-        height: 60vh;
+    height: 500px;
+    @media (max-width: 452px){
+        height: 550px;
     }
 }
 

@@ -2,9 +2,9 @@
 
 #projects{
     background-color: variables.$tan;
-    height: 100vh;
-    @media (max-width: 505px){
-        height: 185vh;
+    height: 800px;
+    @media (max-width: 728px){
+        height: 1430px;
     }
     h2{
         padding-top: 80px;
@@ -27,11 +27,11 @@
     background-color: variables.$white;
     width: 40%;
     @media (max-width: 505px){
-        width: 60%;
+        width: 80%;
     }
     margin: 10px 10px;
     max-width: 400px;
-    min-width: 200px;
+    min-width: 300px;
     padding: 10px;
     .smallText{
         font-size: 0.6rem;

@@ -2,6 +2,9 @@
 
 #about{
     height: 50vh;
+    @media (max-width: 627px){
+        height: 60vh;
+    }
 }
 
 .aboutMeFlex{

@@ -457,6 +457,11 @@ i {
 #about {
   height: 50vh;
 }
+@media (max-width: 627px) {
+  #about {
+    height: 60vh;
+  }
+}
 
 .aboutMeFlex {
   display: -webkit-box;

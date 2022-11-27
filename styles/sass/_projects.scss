@@ -3,6 +3,12 @@
 #projects{
     background-color: variables.$tan;
     height: 100vh;
+    @media (max-width: 505px){
+        height: 185vh;
+    }
+    h2{
+        padding-top: 80px;
+    }
 }
 
 
@@ -20,7 +26,14 @@
 .individualProjectBox{
     background-color: variables.$white;
     width: 40%;
+    @media (max-width: 505px){
+        width: 60%;
+    }
     margin: 10px 10px;
     max-width: 400px;
     min-width: 200px;
+    padding: 10px;
+    .smallText{
+        font-size: 0.6rem;
+    }
 }

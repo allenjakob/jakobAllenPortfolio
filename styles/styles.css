@@ -272,7 +272,7 @@ header {
 }
 .headerTextFlex p {
   color: #F8F4F3;
-  padding: 10px 0px;
+  padding-bottom: 15px;
 }
 
 h1, h2, h3, p {
@@ -281,8 +281,9 @@ h1, h2, h3, p {
 }
 
 h1 {
-  color: lightgray;
+  color: #F8F4F3;
   font-size: 3.5rem;
+  padding-top: 100px;
 }
 
 h2 {
@@ -345,6 +346,14 @@ section {
   background-color: #F7E4DC;
   height: 100vh;
 }
+@media (max-width: 505px) {
+  #projects {
+    height: 185vh;
+  }
+}
+#projects h2 {
+  padding-top: 80px;
+}
 
 .projectSection {
   background-color: #F7E4DC;
@@ -367,6 +376,15 @@ section {
   margin: 10px 10px;
   max-width: 400px;
   min-width: 200px;
+  padding: 10px;
+}
+@media (max-width: 505px) {
+  .individualProjectBox {
+    width: 60%;
+  }
+}
+.individualProjectBox .smallText {
+  font-size: 0.6rem;
 }
 
 #skills {
@@ -374,6 +392,7 @@ section {
 }
 #skills h2 {
   color: #F8F4F3;
+  padding-top: 80px;
 }
 
 i {
@@ -466,6 +485,29 @@ i {
 
 #contact {
   background-color: #B6CAA2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.contactFlexParent p {
+  padding: 10px;
 }
 
 #footer {

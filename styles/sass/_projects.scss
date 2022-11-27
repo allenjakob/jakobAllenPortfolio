@@ -36,4 +36,12 @@
     .smallText{
         font-size: 0.6rem;
     }
+    img{
+        max-height: 300px;
+    }
+}
+
+.projectImgBox{
+    display: flex;
+    justify-content: center;
 }

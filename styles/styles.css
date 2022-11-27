@@ -386,6 +386,18 @@ section {
 .individualProjectBox .smallText {
   font-size: 0.6rem;
 }
+.individualProjectBox img {
+  max-height: 300px;
+}
+
+.projectImgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 #skills {
   background-color: #365C46;

@@ -3,18 +3,13 @@
 #projects{
     background-color: variables.$tan;
     height: 1000px;
+    background-color: variables.$tan;
     @media (max-width: 728px){
         height: 1850px;
     }
     h2{
         padding-top: 80px;
     }
-}
-
-
-.projectSection{
-    background-color: variables.$tan;
-
 }
 
 .mainProjectsFlex{

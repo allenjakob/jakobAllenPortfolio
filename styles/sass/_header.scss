@@ -13,7 +13,6 @@ header{
     height: 300px;
 }
 
-
 .navFlex{
     display: flex;
     justify-content: center;
@@ -29,7 +28,6 @@ header{
     a{
         color: variables.$white;
     }
-
 }
 
 .headerTextFlex{
@@ -38,6 +36,5 @@ header{
     p{
         color: variables.$white;
         padding-bottom: 15px;
-        
     }
 }

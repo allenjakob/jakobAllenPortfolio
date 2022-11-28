@@ -344,11 +344,11 @@ section {
 
 #projects {
   background-color: #F7E4DC;
-  height: 800px;
+  height: 1000px;
 }
 @media (max-width: 728px) {
   #projects {
-    height: 1430px;
+    height: 1850px;
   }
 }
 #projects h2 {
@@ -387,7 +387,7 @@ section {
   font-size: 0.6rem;
 }
 .individualProjectBox img {
-  max-height: 300px;
+  max-height: 200px;
 }
 
 .projectImgBox {
@@ -470,9 +470,14 @@ i {
 #about {
   height: 500px;
 }
-@media (max-width: 452px) {
+@media (max-width: 745px) {
   #about {
-    height: 550px;
+    height: 600px;
+  }
+}
+@media (max-width: 456px) {
+  #about {
+    height: 700px;
   }
 }
 
@@ -490,7 +495,7 @@ i {
   text-align: center;
 }
 .aboutMeFlex p {
-  width: 70%;
+  width: 50%;
 }
 
 .aboutMeImg {

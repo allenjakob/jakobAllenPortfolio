@@ -2,9 +2,9 @@
 
 #projects{
     background-color: variables.$tan;
-    height: 800px;
+    height: 1000px;
     @media (max-width: 728px){
-        height: 1430px;
+        height: 1850px;
     }
     h2{
         padding-top: 80px;
@@ -37,7 +37,7 @@
         font-size: 0.6rem;
     }
     img{
-        max-height: 300px;
+        max-height: 200px;
     }
 }
 

@@ -2,8 +2,11 @@
 
 #about{
     height: 500px;
-    @media (max-width: 452px){
-        height: 550px;
+    @media (max-width: 745px){
+        height: 600px;
+    }
+    @media (max-width: 456px){
+        height: 700px;
     }
 }
 
@@ -13,7 +16,7 @@
     align-items: center;
     text-align: center;
     p{
-        width: 70%;
+        width: 50%;
     }
 }
 

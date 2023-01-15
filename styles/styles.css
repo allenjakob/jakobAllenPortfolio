@@ -340,11 +340,12 @@ button {
   width: 100px;
   height: 45px;
   font-size: 0.8rem;
+  font-family: "Arvo", Arial, Helvetica, sans-serif;
 }
 
 #projects {
   background-color: #F7E4DC;
-  height: 1000px;
+  height: 1010px;
   background-color: #F7E4DC;
 }
 @media (max-width: 728px) {
@@ -369,6 +370,7 @@ button {
 
 .individualProjectBox {
   background-color: #F8F4F3;
+  text-align: center;
   width: 40%;
   margin: 10px 10px;
   max-width: 400px;
@@ -384,7 +386,7 @@ button {
   font-size: 0.6rem;
 }
 .individualProjectBox img {
-  max-height: 200px;
+  max-height: 180px;
 }
 
 .projectImgBox {

@@ -2,7 +2,7 @@
 
 #projects{
     background-color: variables.$tan;
-    height: 1000px;
+    height: 1010px;
     background-color: variables.$tan;
     @media (max-width: 728px){
         height: 1850px;
@@ -20,6 +20,7 @@
 
 .individualProjectBox{
     background-color: variables.$white;
+    text-align: center;
     width: 40%;
     @media (max-width: 505px){
         width: 80%;
@@ -32,7 +33,7 @@
         font-size: 0.6rem;
     }
     img{
-        max-height: 200px;
+        max-height: 180px;
     }
 }
 
